@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <title>FSDI 106</title>
+</head>
+
+<body>
+
+    <div class="list">
+        <h1>ToDo List</h1>
+        <div class="input">
+            <label id="lblTodo">Add to List</label>
+            <input id="txtTodo" type="text">
+            <label>Priority: </label>
+            <select id="selPriority">
+                <option value="P4">Desired</option>
+                <option value="P3">Minor</option>
+                <option value="P2">Major</option>
+                <option value="P1">Urgent</option>
+            </select>
+            <button class="btn btn-info" id="btnSave">Add</button>
+        </div>
+        <div class="todo-container">
+            <h3>ToDo Task</h3>
+            <ul id="todoList">
+            </ul>
+        </div>
+        <div class="done-container">
+            <h3>Done Task</h3>
+            <ul id="doneList">
+            </ul>
+        </div>
+    </div>
+    <footer>
+
+        <!--jquery First-->
+        <!-- 1 - add the url for the JS online-->
+        <!--<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>-->
+        <!-- 2 - add the local file if out of internet range-->
+        <script src="scripts/jquery-3.4.1.js"></script>
+        <script src="scripts/bootstrap.js"></script>
+        <!--Java Script Second-->
+        <script src="scripts/app.js"></script>
+
+    </footer>
+</body>
+
+</html>

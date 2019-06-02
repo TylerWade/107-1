@@ -1,0 +1,45 @@
+body {
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.list {
+    margin: 30px 30%;
+
+}
+
+h1 {
+    color: rgb(13, 13, 14);
+    text-align: center;
+    text-decoration: black underline;
+}
+h3{
+    text-decoration: underline black;
+}
+.error {
+    border: 1px solid red;
+}
+.input{
+    text-align: center;
+}
+.btn-done {
+    float: right;
+}
+
+.todo-container {
+    margin-top: 20px;
+    border: 2px black solid;
+    padding: 5%;
+    background-color:  #ffff88;
+}
+
+.done-container {
+    margin-top: 30px;
+    border: 2px black solid;
+    padding: 5%;
+    background-color:  #ffff88;
+}
+
+#doneList {
+    text-decoration: black line-through;
+}
